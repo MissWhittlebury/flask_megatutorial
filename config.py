@@ -15,3 +15,4 @@ class Config(object):
     ##TODO(dwojtak): This would be actual email address if you actually want
     # to host app
     ADMINS = ['unneeded@example.com']
+    POSTS_PER_PAGE = 3
