@@ -128,3 +128,4 @@ dmypy.json
 .history
 
 app.db
+logs/
