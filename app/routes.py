@@ -2,8 +2,8 @@ from app import app, db
 from app.email import send_password_reset_email
 from app.forms import EditProfileForm, LoginForm, PostForm, RegistrationForm, ResetPasswordRequestForm, ResetPasswordForm
 from app.models import Post, User
-from flask_babel import _, get_locale
 from datetime import datetime
+from flask_babel import _, get_locale
 from flask import render_template, flash, redirect, url_for, request, g
 from flask_login import current_user, login_user, logout_user, login_required
 from werkzeug.urls import url_parse
