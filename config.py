@@ -17,3 +17,4 @@ class Config(object):
     ADMINS = ['unneeded@example.com']
     POSTS_PER_PAGE = 25
     LANGUAGES = ['en', 'es']
+    MS_TRANSLATOR_KEY = os.getenv('MS_TRANSLATOR_KEY')
