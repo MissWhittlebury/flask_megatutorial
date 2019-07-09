@@ -128,5 +128,6 @@ dmypy.json
 .history
 
 app.db
+dump.rdb
 logs/
 notes.txt
